@@ -2,7 +2,7 @@
 
 - Since we're using `nx`, we add everything through generators, instead of manually
 
-### NestJS generators
+## NestJS generators
 
 ```bash
 pnpm nx g @nx/nest:module <path>
@@ -12,4 +12,16 @@ pnpm nx g @nx/nest:module <path>
 pnpm nx g @nx/nest:module ./apps/api/src/users/users # module
 pnpm nx g @nx/nest:controller <path> # controller
 pnpm nx g @nx/nest:service <path> # controller
+```
+
+## Angular Generators
+
+## Angular generators
+
+```bash
+pnpm nx g @nx/nest:component <path>
+# path = `./apps/client/src/users/users`
+
+pnpm nx g @nx/nest:component ./apps/client/src/users/users
+pnpm nx g @nx/nest:service <path>
 ```
