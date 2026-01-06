@@ -1,0 +1,17 @@
+{
+  "name": "@app/source",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {},
+  "private": true,
+  "devDependencies": {
+    "@angular-devkit/core": "~21.0.0",
+    "@nestjs/schematics": "^11.0.0",
+    "@nx/angular": "^22.3.3",
+    "@nx/js": "22.3.3",
+    "@nx/nest": "^22.3.3",
+    "@nx/workspace": "22.3.3",
+    "nx": "22.3.3"
+  },
+  "dependencies": {}
+}
